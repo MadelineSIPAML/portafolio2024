@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Portafolio 💻</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="pacman.css">
+
+
+  <script type="text/javascript"></script>
+</head>
+
+
+
+
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span> Portafolio</span> </a>
+
+
+
+
+
+    <nav class="navbar">
+      <a href="#sobreMiCard-3" class="active">Sobre Mi</a>
+
+      <a href="#js"> Juegos</a>
+
+      <a href="#demos"> Demostraciones web</a>
+
+
+      <a href="#conctacto">¡Contáctame!</a>
+  </header>
+
+
+  <section class="home">
+
+    <div class="home-content">
+      <h3> </h3>
+
+
+      <h1 onmouseover="cambiarColor()" onmouseout="cambiarColor2()"><span id="nombre">Madeline <br></span>Toledo</h1>
+
+      <p> Estudiante del Técnico Profesional en Programación del colegio Arturo Matte Larrain.
+      </p>
+      <p> </p>
+    </div>
+    <div class="img-box">
+
+
+      <div class=" about-img" onclick="alerta()">
+        <img src="img/yo.png" alt="Madeline Toledo">
+      </div>
+
+    </div>
+
+
+
+  </section>
+  <!-- INICIO SECCION DE JUEGOS -->
+
+  <div id="js">
+    <section id="sobreMi">
+      <h1 id="title-sobreMi">Juegos<span> js 🎮</span> </h1>
+
+
+      <div id="contentCards">
+
+
+
+        <!-- JUEGO DE PACMAN -->
+        <div id="sobreMiCard">
+
+
+          <video src="p.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <a href="juegos/pacman/juego_pacman.html">
+              <h2 class="card-h2">Pac-Man de Hamburguesa 🍔🍟</h2>
+            </a>
+            <p class="card-p"> El Principal objetivo del Juego Pac Man es Comer Todos los sandwich en el laberinto
+              mientras
+              Se evita ser atrapado por el Perro.
+
+            </p>
+          </figcaption>
+        </div>
+
+
+        <!-- JUEGO DEL GATO -->
+
+        <div id="sobreMiCard">
+          <video src="video de gato.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="juegos/gato/index.html">Juego del gato🐈🐱</a></h2>
+
+            <p class="card-p">El Principal objetivo es que el gato se mueva de izquierda a derecha y arriba abajo.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+        <!-- OTRO JUEGO -->
+
+        <div id="sobreMiCard">
+          <video src="snake.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="juegos/snake/index.html">Juego del gusano🪱</a></h2>
+
+            <p class="card-p">El Principal objetivo es que escoger el gusanito que más te guste, luego con las teclas A y D ir moviendolo para que se coma todos los puntitos.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+
+
+    </section>
+  </div>
+
+
+
+  <!-- INICIO SECCION DE DEMOSTRACIONES -->
+
+
+  <div id="demos">
+    <section id="sobreMi">
+      <h1 id="title-sobreMi">Demostraciones de HTML & <span>CSS</span> </h1>
+
+
+      <div id="contentCards">
+
+
+
+        <!-- DEMOSTRACION UNO -->
+        <div id="sobreMiCard">
+
+
+          <!-- <video src="p.mp4" autoplay muted loop class="videito"></video> -->
+          <img src="demostraciones/demo1/demo1.png" alt="" class="videito">
+          <figcaption id="sobreMi-figcaption-2">
+            <a href="demostraciones/demo1/index.html">
+              <h2 class="card-h2">Modernize</h2>
+            </a>
+            <p class="card-p"> Esta página fue construida dentro de 24 hrs. con HTML y CSS puro.
+
+            </p>
+          </figcaption>
+        </div>
+
+
+        <!-- DEMOSTRACION DOS -->
+
+        <div id="sobreMiCard">
+          <img src="img/demostracion 2.png" alt="" class="videito">
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="demostraciones/demo2/formaA/Index.html">Easy Bay</a></h2>
+
+            <p class="card-p">Esta página fue construida con HTML & CSS, el tema central de esta página Web es la Venta
+              de Las plantas para tu Jardín u Hogar.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+        <!-- DEMOSTRACION TRES -->
+
+        <div id="sobreMiCard">
+          <img src="demostraciones/demo 3/nuevo (3)/nuevo/img/demo3.jpeg" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="demostraciones/demo 3/nuevo (3)/nuevo/index.html">How can we help?</a>
+            </h2>Esta página fue construida con HTML & CSS, el tema central de esta página Web es la Gestión de Proceso
+            y de Herramienta.
+
+            <p class="card-p">
+            </p>
+          </figcaption>
+        </div>
+
+
+
+    </section>
+
+  </div>
+
+
+
+
+
+
+  <div class="conctact-form" id="conctacto">
+    <section class="conctact-form">
+      <h2 class="conctact-me">¡Contáctame! <span></span></h2>
+      <form action="#">
+
+        <div class="imput-box">
+          <input type="text" placeholder="Nombre">
+          <input type="email" placeholder="Emaill">
+        </div>
+        <div class="imput-box">
+          <input type="number" placeholder="Numero de telefono">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe el mensaje..."></textarea>
+        <input type="submit" value="Enviar mensaje" class="btn-1">
+      </form>
+    </section>
+  </div>
+
+
+
+
+<div class="SobreMi"></div>
+  <section id="sobreMi">
+
+    <h1 id="title-sobreMi">Sobre<span> Mi</span></h1>
+
+    <div id="contentCards">
+
+      <div id="sobreMiCard-2"> 
+        <figure id="sobreMi-figure-2">
+          <img src="img/Alaba.jpg" alt="" class="videito">
+
+        </figure>
+
+<figcaption id="sobreMi-figcaption-2" >
+
+     <a href=" https://www.instagram.com/principesxcristo?igsh=ZmFrbnh3OTFzeXY=">
+            
+        <h2 class="card-h2">Hobbies</h2>
+          </a>
+
+      
+
+        <p class="card-p">Lo que me gusta hacer es ir a la iglesia Cristiana; les dejo una invitación a los Jovenes para ir a la iglesia
+          llamada "EL Señor Proveera" que está hubicada en Santo Tomas, también 
+          puede buscar más imformación en instagram de los jovenes "PxC".
+        </p>
+        </figcaption>
+      </div>
+
+
+
+      <div id="sobreMiCard-3">
+        <figure id="sobreMi-figure-2">
+          <img src="img/estudiar.jpg" alt="" class="videito">
+
+        </figure>
+        <figcaption id="sobreMi-figcaption-2">
+          <a href="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Conoce-Espana.aspx">
+            <h2 class="card-h2">Aspiraciones🛩️</h2>
+
+
+       
+              </a>
+          
+
+
+        
+          <p class="card-p">Mis metas futuras son estudiar, viajar por el mundo y posiblemente vivir en España</p>
+        </figcaption>
+      </div>
+
+
+
+      <div id="sobreMiCard-4">
+        <figure id="sobreMi-figure-4">
+          <img src="img/ball.jpg" alt="" class="videito">
+
+        </figure>
+        <figcaption id="sobreMi-figcaption-4">
+          <a href="https://www.youtube.com/watch?v=CXLM08fZO5o">
+            <h2 class="card-h2">Deportes🚲</h2>
+       
+              </a>
+          
+          <p class="card-p">Mi deporte favorito es el basquetball y las carreras en bicicleta. </p>
+        </figcaption>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  </div>
+  </div>
+
+  <footer class="footer">
+    <div class="social">
+
+      <a href="https://github.com/MadelineSIPAML"><i class='bx bxl-github'></i>
+
+        <a href="https://www.instagram.com/madelinetoledo6/profilecard/?igsh=MTB6em5yZGV1NGs5cA=="><i
+            class='bx bxl-instagram-alt'></i>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="https://www.arturomattelarrain.cl/">AML</a>
+      <li>
+        <a href="https://policies.google.com/privacy?hl=en-US">privacy policy</a>
+      </li>
+    </ul>
+    <p class="copyright"> 2024 portafolio Sombre Mi
+    </p>
+  </footer>
+
+
+
+  <script src="pacman.js"></script>
+  <script src="js.js"></script>
+</body>
+
+</html>
